@@ -1,0 +1,94 @@
+object ViewLog: TViewLog
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Log Transaction'
+  ClientHeight = 418
+  ClientWidth = 640
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBoxRequest: TGroupBox
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 634
+    Height = 201
+    Align = alTop
+    Caption = ' Request'
+    TabOrder = 0
+    object MemoRequest: TMemo
+      AlignWithMargins = True
+      Left = 12
+      Top = 25
+      Width = 610
+      Height = 164
+      Margins.Left = 10
+      Margins.Top = 10
+      Margins.Right = 10
+      Margins.Bottom = 10
+      TabStop = False
+      Align = alClient
+      Color = clInfoBk
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Consolas'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      ScrollBars = ssVertical
+      TabOrder = 0
+    end
+  end
+  object GroupBoxResponse: TGroupBox
+    AlignWithMargins = True
+    Left = 3
+    Top = 210
+    Width = 634
+    Height = 201
+    Align = alTop
+    Caption = 'Response'
+    TabOrder = 1
+    object MemoResponse: TMemo
+      AlignWithMargins = True
+      Left = 12
+      Top = 25
+      Width = 610
+      Height = 164
+      Margins.Left = 10
+      Margins.Top = 10
+      Margins.Right = 10
+      Margins.Bottom = 10
+      TabStop = False
+      Align = alClient
+      Color = clInfoBk
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Consolas'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      ScrollBars = ssVertical
+      TabOrder = 0
+    end
+  end
+  object TimerLog: TTimer
+    Enabled = False
+    Interval = 3000
+    OnTimer = TimerLogTimer
+    Left = 392
+    Top = 8
+  end
+end

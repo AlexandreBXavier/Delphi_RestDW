@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/02 08:42:44.000.997,C:\Temp\RestDW\RestDWServerProject.dproj=C:\Temp\RestDW\RestDWServer.dproj</Transaction>
+    <Transaction>2020/01/02 09:04:14.000.317,C:\Temp\RestDW\RestDWServerFormU.pas=C:\Temp\RestDW\View.Main.pas</Transaction>
+    <Transaction>2020/01/02 09:04:14.000.317,C:\Temp\RestDW\RestDWServerFormU.dfm=C:\Temp\RestDW\View.Main.dfm</Transaction>
+    <Transaction>2020/01/02 09:04:28.000.066,C:\Temp\RestDW\uDmService.pas=C:\Temp\RestDW\Model.Service.pas</Transaction>
+    <Transaction>2020/01/02 09:04:28.000.066,C:\Temp\RestDW\uDmService.dfm=C:\Temp\RestDW\Model.Service.dfm</Transaction>
+    <Transaction>2020/01/02 10:09:14.000.169,C:\Temp\RestDW\View.Log.pas=C:\Temp\RestDW\Unit1.pas</Transaction>
+    <Transaction>2020/01/02 10:09:14.000.169,C:\Temp\RestDW\View.Log.dfm=C:\Temp\RestDW\Unit1.dfm</Transaction>
+    <Transaction>2020/01/02 10:10:15.000.776,C:\Temp\RestDW\View.Database.dfm=C:\Temp\RestDW\Unit1.dfm</Transaction>
+    <Transaction>2020/01/02 10:10:15.000.776,C:\Temp\RestDW\View.Database.pas=C:\Temp\RestDW\Unit1.pas</Transaction>
+    <Transaction>2020/01/02 10:10:58.000.008,C:\Temp\RestDW\View.Server.dfm=C:\Temp\RestDW\Unit1.dfm</Transaction>
+    <Transaction>2020/01/02 10:10:58.000.008,C:\Temp\RestDW\View.Server.pas=C:\Temp\RestDW\Unit1.pas</Transaction>
+    <Transaction>2020/01/02 10:31:58.000.001,C:\Temp\RestDW\Model\Model.Service.dfm=C:\Temp\RestDW\Model.Service.dfm</Transaction>
+    <Transaction>2020/01/02 10:31:58.000.001,C:\Temp\RestDW\Model\Model.Service.pas=C:\Temp\RestDW\Model.Service.pas</Transaction>
+    <Transaction>2020/01/02 10:32:12.000.948,C:\Temp\RestDW\View\View.Main.pas=C:\Temp\RestDW\View.Main.pas</Transaction>
+    <Transaction>2020/01/02 10:32:12.000.948,C:\Temp\RestDW\View\View.Main.dfm=C:\Temp\RestDW\View.Main.dfm</Transaction>
+    <Transaction>2020/01/02 10:32:24.000.112,C:\Temp\RestDW\View\View.Server.pas=C:\Temp\RestDW\View.Server.pas</Transaction>
+    <Transaction>2020/01/02 10:32:24.000.112,C:\Temp\RestDW\View\View.Server.dfm=C:\Temp\RestDW\View.Server.dfm</Transaction>
+    <Transaction>2020/01/02 10:32:31.000.410,C:\Temp\RestDW\View\View.Log.pas=C:\Temp\RestDW\View.Log.pas</Transaction>
+    <Transaction>2020/01/02 10:32:31.000.410,C:\Temp\RestDW\View\View.Log.dfm=C:\Temp\RestDW\View.Log.dfm</Transaction>
+    <Transaction>2020/01/02 10:32:40.000.201,C:\Temp\RestDW\View\View.Database.dfm=C:\Temp\RestDW\View.Database.dfm</Transaction>
+    <Transaction>2020/01/02 10:32:40.000.201,C:\Temp\RestDW\View\View.Database.pas=C:\Temp\RestDW\View.Database.pas</Transaction>
+    <Transaction>2020/01/02 13:37:00.000.249,C:\Temp\RestDW\Controller\Database\Controller.Database.pas=C:\Temp\RestDW\Controller\Database\Controller.Database.Factory.pas</Transaction>
+    <Transaction>2020/01/03 10:28:08.000.282,C:\Projetos\MODELO\RestDW\Model\Model.FireDAC.dfm=C:\Projetos\MODELO\RestDW\Unit1.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Controller"/>
+    <File Path="Controller\Database"/>
+    <File Path="Controller\Database\Controller.Database.Factory.pas"/>
+    <File Path="Controller\Database\Controller.Database.Interfaces.pas"/>
+    <File Path="Controller\IniFile"/>
+    <File Path="Controller\IniFile\Controller.IniFile.Factory.pas"/>
+    <File Path="Controller\IniFile\Controller.IniFile.Interfaces.pas"/>
+    <File Path="Controller\Log"/>
+    <File Path="Controller\Log\Controller.Log.Factory.pas"/>
+    <File Path="Controller\Log\Controller.Log.Interfaces.pas"/>
+    <File Path="Controller\Server"/>
+    <File Path="Controller\Server\Controller.Server.Factory.pas"/>
+    <File Path="Controller\Server\Controller.Server.Interfaces.pas"/>
+    <File Path="Model"/>
+    <File Path="Model\Database"/>
+    <File Path="Model\Database\Model.Database.Interfaces.pas"/>
+    <File Path="Model\Database\Model.Database.pas"/>
+    <File Path="Model\IniFile"/>
+    <File Path="Model\IniFile\Model.IniFile.Interfaces.pas"/>
+    <File Path="Model\IniFile\Model.IniFile.pas"/>
+    <File Path="Model\Log"/>
+    <File Path="Model\Log\Model.Log.Interfaces.pas"/>
+    <File Path="Model\Log\Model.Log.pas"/>
+    <File Path="Model\Server"/>
+    <File Path="Model\Server\Model.Server.Interfaces.pas"/>
+    <File Path="Model\Server\Model.Server.pas"/>
+    <File Path="Model\Model.Service.pas"/>
+    <File Path="Model\Model.Service.dfm"/>
+    <File Path="Model\Model.FireDAC.pas"/>
+    <File Path="Model\Model.FireDAC.dfm"/>
+    <File Path="View"/>
+    <File Path="View\View.Database.pas"/>
+    <File Path="View\View.Database.dfm"/>
+    <File Path="View\View.Log.pas"/>
+    <File Path="View\View.Log.dfm"/>
+    <File Path="View\View.Main.pas"/>
+    <File Path="View\View.Main.dfm"/>
+    <File Path="View\View.Server.pas"/>
+    <File Path="View\View.Server.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
